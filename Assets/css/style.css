@@ -146,12 +146,13 @@ a {
 }
 
 .big-container {
-    height: 1000px;
+    height: 100%;
     width: 100%;
     background-color: black;
     color: white;
     justify-content: center;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -160,18 +161,17 @@ a {
 .big-card {
     
     background-color: rgb(55, 55, 56);
-    width: 50vw;
-    height: 90vh;
+    width: 70vw;
+    height: 80vh;
     border-radius: 25px;
-    margin: 0;
+    margin: 2%;
     padding: 0;
-    display: inline-block;
     justify-content: center;
     align-items: center;
     background-image: url(/Assets/images/Main\ Project.JPG);
     background-size:cover;
     border: 5px solid rgb(2, 17, 233);
-    transition: 1s;
+    
 }
 
 .small-card {
@@ -182,27 +182,18 @@ a {
     justify-content: center;
     align-items: center;
     border: 5px solid rgb(2, 17, 233);
-    transition: 1s;
-    justify-content: space-evenly;
+    margin-top: 5%;
 }
 
 
 .row {
-    
+    display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     padding-left: 20px;
     
 }
 
-.small-card:hover {
-    transform: scale(1.0);
-}
-
-.big-card:hover {
-    transform: scale(1.09);
-    
-    
-}
 
 #card1 {
     background-image: url(/Assets/images/Password\ Generator.JPG);
