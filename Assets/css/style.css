@@ -185,6 +185,7 @@ a {
     border: 5px solid rgb(2, 17, 233);
     margin-top: 2%;
     margin-right: 10px;
+    margin-bottom: 20px;
 }
 
 
@@ -229,4 +230,60 @@ a {
     padding: 1%;
     color: rgb(202, 181, 181);
     background-color: rgb(2, 17, 233);
+}
+
+.footer {
+    width: 100%;
+    padding: 25px 25px 25px 0;
+    font-family: Arial;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.footer nav ul {
+    list-style-type: none
+}
+.footer nav {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+   
+}
+
+
+.footer nav ul li {
+    display: inline-block;
+    
+    
+    
+}
+
+a {
+    color: rgb(114, 106, 106);
+    font-weight: bolder;
+    
+} 
+
+.about-me-info {
+    text-align: center;
+}
+.about-me-info p {
+    position: absolute;
+    height: 30vh;
+    width: 50vw;
+    color: rgb(202, 181, 181);
+    background-color: black;
+    top: 40%;
+    left:60%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    border: 2px double rgb(44, 45, 53);
+    border-radius: 2px;
+    line-height: 200%;
+}
+
+@media screen and (max-width: ){
+    
 }
